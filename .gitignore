@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Archivos Parquet grandes (se generan al ejecutar notebooks)
+# Los datos se pueden regenerar ejecutando el notebook o descargándolos de Google Drive
+*.parquet
+datos/raw/*.parquet
