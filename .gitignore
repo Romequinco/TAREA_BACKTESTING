@@ -211,4 +211,3 @@ __marimo__/
 *.parquet
 # Excepcion: datos/raw se sube al repositorio
 !datos/raw/
-!datos/raw/*.parquet
