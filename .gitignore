@@ -211,3 +211,6 @@ __marimo__/
 *.parquet
 # Excepcion: datos/raw se sube al repositorio
 !datos/raw/
+# Excepcion: ignorar archivos grandes que exceden el limite de GitHub (100 MB)
+datos/raw/sp500_history.parquet
+datos/raw/tickers_data.parquet
