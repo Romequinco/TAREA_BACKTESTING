@@ -209,4 +209,6 @@ __marimo__/
 # Archivos Parquet grandes (se generan al ejecutar notebooks)
 # Los datos se pueden regenerar ejecutando el notebook o descargándolos de Google Drive
 *.parquet
-datos/raw/*.parquet
+# Excepcion: datos/raw se sube al repositorio
+!datos/raw/
+!datos/raw/*.parquet
